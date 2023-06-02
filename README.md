@@ -7,6 +7,8 @@ My main goal for this mini-project was gaining familiarity and demonstrating my 
 
 ## Contents:  
 
+*consume endpoint.ipynb* - API endpoint consumption that performs real time inference on new data, hosted on Microsoft Azure.  Please note that the endpoint is no longer active, as I deactivated it to prevent racking up compute costs after I created and tested the example.  
+
 *xgboost_example.ipynb* - This example contains the code utilized to instantiate the model code, which was later adapted to be used on Microsoft Azure ML Studio.  
 
 *xgboost train and deploy.ipynb* - This notebook was created using Azure ML Studio and a cloud compute cluster to pratice and demonstrate my ability to adapt local solutions to Azure.  While XGBoost does not require much scaling nor tons of compute, the idea was to gain experience in using MLFlow, become comfortable with using the Azure Python SDK v2 via creating training "jobs", and to begin operating under a more focused "ML Lifecycle" framework.  It also enables me to start to gain experience with deploying and consuming an API endpoint using Python as well as the .NET framework.  
